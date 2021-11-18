@@ -1,10 +1,23 @@
 import React from 'react';
-import '../styles/Header.css';
+
+const styles = {
+  header: {
+    background: '#6d1404',
+    height: "200px",
+  },
+  h1: {
+    margin: 0,
+    paddingTop: "75px",
+    textAlign: "center",
+    color: "white",
+    fontSize: "3rem",
+  },
+}
 
 function Header() {
   return (
-    <header className="header">
-      <h1>Home</h1>
+    <header style={styles.header}>
+      <h1 style={styles.h1}>Home</h1>
     </header>
   );
 }
