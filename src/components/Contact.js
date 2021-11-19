@@ -3,6 +3,12 @@ import Form from "react-bootstrap/Form";
 /* import FormControl from "react-bootstrap/FormControl"; */
 import Button from "react-bootstrap/Button";
 
+const styles = {
+  contain: {
+    height: '20em',
+  },
+};
+
 function Contact() {
   const [validated, setValidated] = useState(false);
 
@@ -16,7 +22,7 @@ function Contact() {
   };
 
   return (
-    <Form noValidate validated={validated} onSubmit={handleSubmit}>
+    <Form noValidate validated={validated} style={styles.contain} onSubmit={handleSubmit}>
       <Form.Group className="mb-3" controlId="form.Name">
         <Form.Label>Name</Form.Label>
         <Form.Control required type="text" placeholder="Enter name" />

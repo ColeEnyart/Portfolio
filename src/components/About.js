@@ -3,10 +3,10 @@ import Me from "./images/me.jpg";
 
 const styles = {
   div: {
-    height: '500px',
+    height: '20em',
   },
   img: {
-    height: '200px',
+    height: '15em',
   },
 }
 

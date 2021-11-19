@@ -3,7 +3,8 @@ import React from 'react';
 const styles = {
   header: {
     background: '#6d1404',
-    height: "200px",
+    height: "15em",
+    marginLeft: "15em",
   },
   h1: {
     margin: 0,

@@ -7,6 +7,7 @@ const styles = {
     background: '#6d1404',
     height: "100px",
     width: "100%",
+    marginLeft: "15em",
   },
   h1: {
     margin: 0,

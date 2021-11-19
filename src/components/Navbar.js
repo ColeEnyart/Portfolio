@@ -8,27 +8,22 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Nav from 'react-bootstrap/Nav'
 
-/* const styles = {
-  card: {
-    margin: 20,
+const styles = {
+  navbar: {
+    height: '30em',
+    width: "15em",
     background: "#e8eaf6",
   },
-  heading: {
-    background: "#9a74db",
-    minHeight: 50,
-    lineHeight: 3.5,
-    fontSize: "1.2rem",
-    color: "white",
-    padding: "0 20px",
-  },
-}; */
+  left: {
 
+  },
+};
 
 function Navbar() {
   return (
-    <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-      <Row>
-        <Col sm={3}>
+    <Tab.Container style={styles.left} defaultActiveKey="first">
+      <Row >
+        <Col sm={3} style={styles.navbar}>
           <Nav variant="pills" className="flex-column">
             <Nav.Item>
               <Nav.Link eventKey="first">About Me</Nav.Link>
