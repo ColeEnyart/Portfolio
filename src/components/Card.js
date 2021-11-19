@@ -27,8 +27,8 @@ function Card() {
   return (
     <div style={styles.contain}>
       <div style={styles.project}>
-        <a href="https://github.com/ColeEnyart/which-star-wars-character-are-you" target="blank">
         <img style={styles.img} src={Star} alt="Star Wars Quiz Website"></img>
+        <a href="https://github.com/ColeEnyart/which-star-wars-character-are-you" target="blank">
         <div>Star Wars Quiz</div>
         </a>
       </div>

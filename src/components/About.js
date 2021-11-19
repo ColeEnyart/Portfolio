@@ -15,7 +15,7 @@ function About() {
     <div style={styles.div}>
       <img style={styles.img} src={Me} alt="Cole Enyart Portrait"></img>
       <h2>Cole Enyart</h2>
-      <p>Hello I am learning to be a developer</p>
+      <p>It is my dream to become a developer. I'm taking my first steps towards accomplishing my dream.</p>
     </div>
   );
 }
