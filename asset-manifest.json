@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/portfolio/static/js/main.891bdd95.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.891bdd95.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.21869f22.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.21869f22.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.0bf68c44.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.0bf68c44.js.map",
     "static/js/2.c52b088e.chunk.js": "/portfolio/static/js/2.c52b088e.chunk.js",
@@ -10,8 +10,11 @@
     "index.html": "/portfolio/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/portfolio/static/css/main.6dea0f05.chunk.css.map",
     "static/js/2.c52b088e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c52b088e.chunk.js.LICENSE.txt",
+    "static/media/budget-tracker.3ad17aee.png": "/portfolio/static/media/budget-tracker.3ad17aee.png",
     "static/media/me.0c4d35e8.jpg": "/portfolio/static/media/me.0c4d35e8.jpg",
+    "static/media/northern_health_tracker.82cbc54f.png": "/portfolio/static/media/northern_health_tracker.82cbc54f.png",
     "static/media/star-wars-quiz-updated.4bf886d4.png": "/portfolio/static/media/star-wars-quiz-updated.4bf886d4.png",
+    "static/media/tech-blog.6e44b0d5.png": "/portfolio/static/media/tech-blog.6e44b0d5.png",
     "static/media/weather-dashboard.80c290a9.png": "/portfolio/static/media/weather-dashboard.80c290a9.png",
     "static/media/work_day_scheduler.56c74f32.png": "/portfolio/static/media/work_day_scheduler.56c74f32.png"
   },
@@ -19,6 +22,6 @@
     "static/js/runtime-main.0bf68c44.js",
     "static/js/2.c52b088e.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.891bdd95.chunk.js"
+    "static/js/main.21869f22.chunk.js"
   ]
 }
