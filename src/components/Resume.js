@@ -1,18 +1,99 @@
 import React from "react";
-import { saveAs } from "file-saver";
+import { Link } from "react-router-dom";
+
+const styles = {
+  contain: {
+    display: 'flex',
+    justifyContent: 'space-evenly',
+    padding: '1em',
+    width: '50%',
+  },
+  group: {
+    display: 'flex',
+    justifyContent: 'center',
+    padding: '1em',
+    width: '50%',
+  }
+};
 
 function Resume() {
-  const saveFile = () => {
-    saveAs(
-      "https://drive.google.com/file/d/1cNNil3yfuB3Ua_WcAJZzB70ppECOmSHC/view",
-      "example_resume.pdf"
-    );
-  };
   return (
     <div>
-      <h2>Resume</h2>
-      <button onClick={saveFile}>download</button>
-      <p>Skills</p>
+      <div style={styles.group}>
+        <h2>My Skills</h2>
+        <button>
+          <Link to="./files/Cole Enyart Resume.pdf" target="_blank" download>
+            Download Resume
+          </Link>
+        </button>
+      </div>
+      <div style={styles.contain}>
+        <div>
+          <div>
+            <p><b>Computer Science applied to JavaScript</b></p>
+            <ul>
+              <li>Algorithms (Searches, Sorts)</li>
+              <li>Performance</li>
+              <li>Time Complexity</li>
+              <li>Big O Notation</li>
+              <li>Data Structures</li>
+            </ul>
+          </div>
+          <div>
+            <p><b>Browser Based Technologies</b></p>
+            <ul>
+              <li>HTML/CSS</li>
+              <li>JavaScript/jQuery</li>
+              <li>Responsive Design</li>
+              <li>Bootstrap</li>
+              <li>Progressive Web Applications (PWAs)</li>
+              <li>Local Storage, Session Storage, IndexedDB</li>
+              <li>React.js</li>
+            </ul>
+          </div>
+          <div>
+            <p><b>Databases</b></p>
+            <ul>
+              <li>MySQL</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div>
+            <p><b>Server Side Development</b></p>
+            <ul>
+              <li>User Authentication</li>
+              <li>Template Engines</li>
+              <li>MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
+            </ul>
+          </div>
+          <div>
+            <p><b>API Design</b></p>
+            <ul>
+              <li>Client-Server Model</li>
+              <li>API</li>
+              <li>Rest</li>
+              <li>JSON</li>
+              <li>AJAX (Fetch API)</li>
+              <li>HTTP request methods</li>
+              <li>GraphQL</li>
+            </ul>
+          </div>
+          <div>
+            <p><b>Deployment and Delivery</b></p>
+            <ul>
+              <li>Heroku</li>
+              <li>Git</li>
+              <li>GitHub Pages</li>
+              <li>Shell Scripting</li>
+              <li>Unit Testing</li>
+              <li>Linting</li>
+              <li>Continuous Integration</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
