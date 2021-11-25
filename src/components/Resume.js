@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import MyPDF from "../files/Cole Enyart Resume.pdf";
 
 const styles = {
   contain: {
@@ -22,9 +22,9 @@ function Resume() {
       <div style={styles.group}>
         <h2>My Skills</h2>
         <button>
-          <Link to="./files/Cole Enyart Resume.pdf" target="_blank" download>
+          <a href={MyPDF} download="Cole Enyart Resume.pdf">
             Download Resume
-          </Link>
+          </a>
         </button>
       </div>
       <div style={styles.contain}>
