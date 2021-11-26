@@ -16,6 +16,7 @@ function App() {
         <Header />
         <Routes>
           <Route exact path="/" element={<About/>} />
+          <Route exact path="/portfolio" element={<About/>} />
           <Route exact path="/about" element={<About/>} />
           <Route exact path="/work" element={<Work/>} />
           <Route exact path="/contact" element={<Contact/>} />
