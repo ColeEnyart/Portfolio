@@ -1,10 +1,10 @@
 import React from 'react';
-import Star from "./images/star-wars-quiz-updated.png";
-import Weather from "./images/weather-dashboard.png";
-import Work from "./images/work_day_scheduler.png";
-import Northern from "./images/northern_health_tracker.png";
-import Budget from "./images/budget-tracker.png";
-import Tech from "./images/tech-blog.png";
+import Star from "../images/star-wars-quiz-updated.png";
+import Weather from "../images/weather-dashboard.png";
+import Work from "../images/work_day_scheduler.png";
+import Northern from "../images/northern_health_tracker.png";
+import Budget from "../images/budget-tracker.png";
+import Tech from "../images/tech-blog.png";
 
 const styles = {
   contain: {

@@ -2,25 +2,36 @@ import React from 'react';
 
 const styles = {
   footer: {
-    position: 'relative',
-    bottom: 0,
+    display: 'flex',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    position: 'fixed',
+    bottom: '0',
     background: '#6d1404',
-    height: "100px",
+    height: "5em",
     width: "100%",
-    marginLeft: "15em",
   },
-  h1: {
-    margin: 0,
-    textAlign: "center",
+  div: {
+    height: "4em",
+  },
+  link: {
     color: "white",
-    fontSize: "3rem",
+    fontSize: "2em",
   },
 }
 
 function Footer() {
   return (
     <footer style={styles.footer}>
-      <h1 style={styles.h1}>Footer</h1>
+      <div style={styles.div}>
+        <a href='https://github.com/ColeEnyart' target='_blank' rel='noreferrer' style={styles.link}>GitHub</a>
+      </div>
+      <div style={styles.div}>
+        <a href='https://www.linkedin.com/in/cole-enyart-a233b31b5/' target='_blank' rel='noreferrer' style={styles.link}>Linked In</a>
+      </div>
+      <div style={styles.div}>
+        <a href='https://stackoverflow.com/users/16801364/cole-enyart' target='_blank' rel='noreferrer' style={styles.link}>Stack Overflow</a>
+      </div>
     </footer>
   );
 }
