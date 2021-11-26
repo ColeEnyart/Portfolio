@@ -2,6 +2,14 @@ import React from "react";
 import MyPDF from "../files/Cole Enyart Resume.pdf";
 
 const styles = {
+  page: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    background: "#CFA5A5",
+    margin: "1em",
+    padding: "1em",
+  },
   contain: {
     display: 'flex',
     justifyContent: 'space-evenly',
@@ -13,20 +21,26 @@ const styles = {
     justifyContent: 'center',
     padding: '1em',
     width: '50%',
+  },
+  p: {
+    textAlign: "center",
+    fontSize: "2em",
+  },
+  skills: {
+    margin: ".5em",
   }
 };
 
 function Resume() {
   return (
-    <div>
-      <div style={styles.group}>
-        <h2>My Skills</h2>
-        <button>
-          <a href={MyPDF} download="Cole Enyart Resume.pdf">
-            Download Resume
-          </a>
-        </button>
-      </div>
+    <div style={styles.page}>
+      <p style={styles.p}>Resume</p>
+      <button>
+        <a href={MyPDF} download="Cole Enyart Resume.pdf">
+          Download Resume
+        </a>
+      </button>
+      <h2 style={styles.skills}>My Skills</h2>
       <div style={styles.contain}>
         <div>
           <div>

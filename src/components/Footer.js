@@ -7,7 +7,7 @@ const styles = {
     alignItems: 'center',
     position: 'fixed',
     bottom: '0',
-    background: '#6d1404',
+    background: '#8A6B6B',
     height: "5em",
     width: "100%",
   },

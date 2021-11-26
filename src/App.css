@@ -1,3 +1,11 @@
-.body {
-    height: 100vh;
+body {
+    background-color: #FAE3E3;
+}
+
+header {
+    margin-bottom: 1em;
+}
+
+footer {
+    margin-top: 1em;
 }
